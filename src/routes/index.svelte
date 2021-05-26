@@ -6,14 +6,17 @@
 <main class="flex flex-col h-screen">
   <div class="my-auto flex flex-col space-y-20">
     <AlQuran class="h-72 mx-auto" />
-    <nav class="flex flex-col text-white text-xs space-y-4 items-center">
-      <Button class="font-bold focus:outline-none border border-white rounded-xl p-3 w-1/2"
+    <nav class="flex flex-col text-center text-al-white text-xs space-y-4 items-center">
+      <Button
+        href="/daftar-surat"
         >Daftar Surat</Button
       >
-      <Button class="font-bold focus:outline-none border border-white rounded-xl p-3 w-1/2"
+      <Button
+        href="/daftar-surat"
         >Terakhir Dibaca</Button
       >
-      <Button class="font-bold focus:outline-none border border-white rounded-xl p-3 w-1/2"
+      <Button
+        href="/daftar-surat"
         >Pengaturan</Button
       >
     </nav>
