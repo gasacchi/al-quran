@@ -3,28 +3,19 @@
   import Button from "$lib/shared/Button.svelte";
 </script>
 
-<main class="flex flex-col h-screen">
-  <div class="my-auto flex flex-col space-y-20">
-    <AlQuran class="h-72 mx-auto" />
-    <nav class="flex flex-col text-center text-al-white text-xs space-y-4 items-center">
-      <Button
-        href="/daftar-surat"
-        >Daftar Surat</Button
-      >
-      <Button
-        href="/daftar-surat"
-        >Terakhir Dibaca</Button
-      >
-      <Button
-        href="/daftar-surat"
-        >Pengaturan</Button
-      >
-    </nav>
-  </div>
-</main>
+<section class="my-auto flex flex-col justify-center h-screen space-y-20">
+  <AlQuran class="h-72 mx-auto" />
+  <nav
+    class="flex flex-col text-center text-al-white text-xs space-y-4 items-center"
+  >
+    <Button href="/daftar-surat/all">Daftar Surat</Button>
+    <Button href="/daftar-surat">Terakhir Dibaca</Button>
+    <Button href="/daftar-surat">Pengaturan</Button>
+  </nav>
+</section>
 
 <style>
-  main {
+  section {
     background: linear-gradient(
       16.47deg,
       #04364f -13.06%,
