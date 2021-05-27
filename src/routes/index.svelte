@@ -3,6 +3,10 @@
   import Button from "$lib/shared/Button.svelte";
 </script>
 
+<svelte:head>
+  <title>Baca Al-Qur'an Online</title>
+</svelte:head>
+
 <section class="my-auto flex flex-col justify-center h-screen space-y-20">
   <AlQuran class="h-72 mx-auto" />
   <nav
@@ -10,8 +14,9 @@
   >
     <Button href="/daftar-surat/all">Daftar Surat</Button>
     <Button href="/daftar-surat">Terakhir Dibaca</Button>
-    <Button href="/daftar-surat">Pengaturan</Button>
+    <Button href="/settings">Pengaturan</Button>
   </nav>
+  <div />
 </section>
 
 <style>
